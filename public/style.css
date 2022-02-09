@@ -2,7 +2,9 @@
     box-sizing: border-box;
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .main-div {
     display: flex;
     flex-direction: column;
@@ -301,38 +303,6 @@ input[type=search]:focus {
     .login{
         left: 82%;
     }
-
-
-    
-    /* .search-location-main-div {
-        width: 75%;
-    }
-    .search-location-main-div .selectt{
-        font-size: 12px;
-    }
-    .search-category-div{
-        width: 80%;
-        left: 0%;
-        top: 100%;
-    }
-    .login{
-        left: 82%;
-    }
-    .sell-btn{
-        left: 82%;
-        top: 100%;
-        width: 20%;
-    }
-    .sell-btn .sellbutton{
-        font-size: 36px;
-    }
-    .header-child-2{
-        overflow-x:hidden;
-    }
-    .search-location-back-icon {
-        width: 9.2%;
-    } */
-
 
 }
 @media (max-width:773px) {
